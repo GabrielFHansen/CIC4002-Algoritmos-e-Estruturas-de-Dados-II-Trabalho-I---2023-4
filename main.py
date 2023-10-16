@@ -112,9 +112,9 @@ def consultar_por_app_id(id):
                 rowId = rowList[2][0:19].strip()
 
             if rowId < id:
-                low = mid+1
+                low = mid
             elif rowId > id:
-                high = mid-1
+                high = mid
             else:
                 found = True
                 break
@@ -145,10 +145,10 @@ def consultar_por_category(category):
             if len(rowList) >= 3:
                 rowId = rowList[2][0:19].strip()
 
-            if rowId < category:
-                low = mid+1
-            elif rowId > category:
-                high = mid-1
+            if rowId < id:
+                low = mid
+            elif rowId > id:
+                high = mid
             else:
                 found = True
                 break
