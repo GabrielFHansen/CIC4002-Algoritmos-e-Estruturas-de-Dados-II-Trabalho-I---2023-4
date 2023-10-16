@@ -145,9 +145,9 @@ def consultar_por_category(category):
             if len(rowList) >= 3:
                 rowId = rowList[2][0:19].strip()
 
-            if rowId < id:
+            if rowId < category:
                 low = mid
-            elif rowId > id:
+            elif rowId > category:
                 high = mid
             else:
                 found = True
