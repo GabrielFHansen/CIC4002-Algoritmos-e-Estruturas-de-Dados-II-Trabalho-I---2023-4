@@ -18,3 +18,6 @@ consultar_por_category - Usa pesquisa binária para realizar uma consulta por ca
 exibir_resultados - Exibe valores de toda a linhas selecionada
 
 main - Função main para chamar todas as outras e com menu interativo por console
+
+
+Link para arquivo csv utilizado: https://drive.google.com/file/d/1T0crzPuOOWEl4460PgK9YsVqyd7FExwx/view?usp=sharing
